@@ -15,10 +15,12 @@
 {
     // Override point for customization after application launch.
 	
-	[[ZRenderMonitor shared] startWatchingWithTimeoutThread:20
-												 lagCallout:^(NSString * _Nonnull callstack) {
-		NSLog(@"");
-	}];
+//	[[ZRenderMonitor shared] startWatchingWithTimeoutThread:20
+//												 lagCallout:^(NSString * _Nonnull callstack) {
+//		NSLog(@"");
+//	}];
+	
+	[[ZRenderMonitor shared] startWatchingFPS];
 	
     return YES;
 }

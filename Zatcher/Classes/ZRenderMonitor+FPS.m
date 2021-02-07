@@ -142,4 +142,57 @@ static void observerCallout(CFRunLoopObserverRef observer, CFRunLoopActivity act
 	dispatch_semaphore_signal([ZRenderMonitor shared].observerSemaphore);
 }
 
+#pragma mark - CADisplayLink
+- (CADisplayLink *)displayLink {
+	return objc_getAssociatedObject(self, @selector(displayLink));
+}
+
+- (void)setDisplayLink:(dispatch_semaphore_t)displayLink {
+	objc_setAssociatedObject(self,
+							 @selector(displayLink),
+							 displayLink,
+							 OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSTimeInterval)lastTimestamp {
+	NSNumber *lc = objc_getAssociatedObject(self, @selector(lastTimestamp));
+	if (lc) {
+		return (NSTimeInterval)(lc.doubleValue);
+	} else {
+		return 0;
+	}
+}
+
+- (void)setLastTimestamp:(NSTimeInterval)lastTimestamp {
+	NSNumber *lts = [NSNumber numberWithDouble:lastTimestamp];
+	objc_setAssociatedObject(self,
+							 @selector(lastTimestamp),
+							 lts,
+							 OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (void)startWatchingFPS {
+	self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(showFPS:)];
+	[self.displayLink  addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
+}
+
+static NSInteger _vSyncCount = 0;
+- (void)showFPS:(CADisplayLink *)sender {
+	if (self.lastTimestamp == 0) {
+		self.lastTimestamp = sender.timestamp;
+		return;
+	}
+	_vSyncCount++;
+	double fps = 0;
+	NSTimeInterval interval = sender.timestamp - self.lastTimestamp;
+	if (interval >= 1) {
+		fps = _vSyncCount / interval; // frame per second
+		_vSyncCount = 0;
+		self.lastTimestamp = sender.timestamp;
+	} else {
+		return;
+	}
+	NSLog(@"FPS: %f", fps);
+}
+
 @end
