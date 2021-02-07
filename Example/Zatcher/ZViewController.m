@@ -7,6 +7,7 @@
 //
 
 #import "ZViewController.h"
+#import <Zatcher/Zatcher.h>
 
 @interface ZViewController ()
 

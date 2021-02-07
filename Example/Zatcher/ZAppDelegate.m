@@ -7,12 +7,19 @@
 //
 
 #import "ZAppDelegate.h"
+#import <Zatcher/ZRenderMonitor+FPS.h>
 
 @implementation ZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+	
+	[[ZRenderMonitor shared] startWatchingWithTimeoutThread:20
+												 lagCallout:^(NSString * _Nonnull callstack) {
+		NSLog(@"");
+	}];
+	
     return YES;
 }
 

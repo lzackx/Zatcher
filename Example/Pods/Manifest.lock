@@ -1,0 +1,23 @@
+PODS:
+  - PLCrashReporter (1.8.1)
+  - Zatcher (0.1.0):
+    - PLCrashReporter (~> 1.8)
+
+DEPENDENCIES:
+  - Zatcher (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PLCrashReporter
+
+EXTERNAL SOURCES:
+  Zatcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PLCrashReporter: ea2d252e930f538a9f70f0b81bc9cce656651fbf
+  Zatcher: a22f4987fc53df86c0076968f7c429b60d860a95
+
+PODFILE CHECKSUM: 4121b03f8d306d0f81c320d32e7a15f9bc5e5467
+
+COCOAPODS: 1.10.0
