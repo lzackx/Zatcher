@@ -74,7 +74,7 @@
 			intptr_t result = dispatch_semaphore_wait(self.observerSemaphore,
 													  dispatch_time(DISPATCH_TIME_NOW, timeoutThread * NSEC_PER_MSEC));
 			if (result != 0) {
-				if (self.rlActivity == kCFRunLoopBeforeTimers ||
+				if (self.rlActivity == kCFRunLoopBeforeSources ||
 					self.rlActivity == kCFRunLoopAfterWaiting) {
 					self.lagCounter++;
 					if (self.lagCounter > 3) {
