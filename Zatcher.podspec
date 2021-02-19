@@ -29,16 +29,19 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'Zatcher/Classes/**/*'
 	s.static_framework = true
-  
-  # s.resource_bundles = {
-  #   'Zatcher' => ['Zatcher/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-	s.dependency 'PLCrashReporter', '~> 1.8'
+	s.default_subspec		= "Core"
+	
+	s.subspec "Core" do |ss|
+		ss.source_files = [
+		'Zatcher/Classes/*.[h,m]',
+		'Zatcher/Classes/RenderMonitor/**/*.[h,m]'
+		]
+		ss.dependency 'PLCrashReporter', '~> 1.8'
+	end
+	
+	s.subspec "OrderGenerator" do |ss|
+		ss.source_files = 'Zatcher/Classes/OrderGenerator/**/*.[h,m]'
+	end
+	
 end

@@ -17,7 +17,16 @@ Zatcher is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Zatcher'
+pod 'Zatcher', :path => '../../../../Z/Repositories/Zatcher/', :subspecs => ['Core', 'OrderGenerator']
+
+post_install do |installer|
+	installer.pods_project.targets.each do |target|
+		target.build_configurations.each do |config|
+			config.build_settings['OTHER_CFLAGS'] = '-fsanitize-coverage=func,trace-pc-guard'
+			config.build_settings['OTHER_SWIFT_FLAGS'] = '-sanitize-coverage=func -sanitize=undefined'
+		end
+	end
+end
 ```
 
 ## Author

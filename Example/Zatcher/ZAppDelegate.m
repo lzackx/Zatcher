@@ -15,6 +15,11 @@
 {
     // Override point for customization after application launch.
 	
+#if DEBUG
+	[[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
+#endif
+	
+	
 //	[[ZRenderMonitor shared] startWatchingWithTimeoutThread:20
 //												 lagCallout:^(NSString * _Nonnull callstack) {
 //		NSLog(@"");
