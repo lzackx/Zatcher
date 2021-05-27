@@ -1,8 +1,8 @@
 {
   "name": "Zatcher",
-  "version": "0.1.0",
-  "summary": "A short description of Zatcher.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "A simple logger",
+  "description": "A simple logger",
   "homepage": "https://github.com/lzackx/Zatcher",
   "license": {
     "type": "MIT",
@@ -13,16 +13,29 @@
   },
   "source": {
     "git": "https://github.com/lzackx/Zatcher.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Zatcher/Classes/**/*",
   "static_framework": true,
-  "dependencies": {
-    "PLCrashReporter": [
-      "~> 1.8"
-    ]
-  }
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": [
+        "Zatcher/Classes/*.[h,m]",
+        "Zatcher/Classes/RenderMonitor/**/*.[h,m]"
+      ],
+      "dependencies": {
+        "PLCrashReporter": [
+          "~> 1.8"
+        ]
+      }
+    },
+    {
+      "name": "OrderGenerator",
+      "source_files": "Zatcher/Classes/OrderGenerator/**/*.[h,m]"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 # Zatcher
 
-[![CI Status](https://img.shields.io/travis/lzackx/Zatcher.svg?style=flat)](https://travis-ci.org/lzackx/Zatcher)
+[![Build Status](https://github.com/lzackx/Zatcher/actions/workflows/ci.yml/badge.svg)](https://github.com/lzackx/Zatcher/actions)
 [![Version](https://img.shields.io/cocoapods/v/Zatcher.svg?style=flat)](https://cocoapods.org/pods/Zatcher)
 [![License](https://img.shields.io/cocoapods/l/Zatcher.svg?style=flat)](https://cocoapods.org/pods/Zatcher)
 [![Platform](https://img.shields.io/cocoapods/p/Zatcher.svg?style=flat)](https://cocoapods.org/pods/Zatcher)

@@ -20,44 +20,44 @@
 
 /* Begin PBXBuildFile section */
 		032039A440B6B1E926B0AEF83693BD8C /* Pods-Zatcher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE904F3AF732F82BD5C2A052CE10E08 /* Pods-Zatcher_Example-dummy.m */; };
+		0862027E6782218DDC5C003B5FE4EA21 /* Zatcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5460BFFB26B3C4C7F14CE8C6B43CC7F /* Zatcher-dummy.m */; };
+		170687FAD0A477553B4E96CAF35ECD7F /* Zatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7DA1A48502B5DA2F1A75D7936C6632 /* Zatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44CBB792DD2421B8278FBDE27E37182A /* ZRenderMonitor+FPS.h in Headers */ = {isa = PBXBuildFile; fileRef = 857F0A4C7C5EAD4FE660C36F69AEBAFB /* ZRenderMonitor+FPS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47AA9BA1746C27F59F08F115ADDBA95B /* Pods-Zatcher_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C78A909FD9A1BD2BB976DB0F6280901 /* Pods-Zatcher_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58984849129FF139D2939E565BAFF48F /* ZRenderMonitor+FPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 381BE1D6562CEE18C4273277D469FE60 /* ZRenderMonitor+FPS.m */; };
+		4D575FDAD4CE17D4DDEA052F7CF361A5 /* Zatcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AA6A5369B2055B9E8A9E6D50E7FCB4 /* Zatcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60BF77B41243E59914E6F6BA031D35F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		611AEC754ABDCA09724545E1C167F50A /* ZRenderMonitor+FPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5588F12C9DDC1FAF16986173F3B8ED75 /* ZRenderMonitor+FPS.m */; };
+		6CA5D548008CCD83FFDB1149D1B8E7EE /* ZRenderMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A153D28507D78CA687D897DF230D1 /* ZRenderMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		742B18ADF4A3437A138B8EEF382513D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		75047EA8CEF72822F0F07A1C3108C0AD /* ZRenderMonitor+FPS.h in Headers */ = {isa = PBXBuildFile; fileRef = 458EA67E8DD958F66EDAC6A57709D6D9 /* ZRenderMonitor+FPS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7744A4619C8AEC5EC54FEE1BB886D4CD /* ZRenderMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 965EA3740D26A333BE88F9822FAB2A0E /* ZRenderMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F453B87F5A9372A1C5BC8441832DA4 /* Zatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4066B787FBD079A8821E0CA655B0E /* Zatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A61B41DA8AE8B571FC5754CA62066D9 /* ZRenderMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B655787ED761541AD7E5C4110469A9 /* ZRenderMonitor.m */; };
 		BAB3CCFF560357506DFAE094AF472CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C6DB3129BA057E5ECDB87B6FFA4A157E /* Zatcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C62A2B1FB7BCA9DDA646A188855BFE43 /* Zatcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA088AF80114E382B60200BD9AD4BBE0 /* Zatcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0272E98B06E08898B2DB12C35C2254 /* Zatcher-dummy.m */; };
 		DC4EA11AEAD2B3E39C6295F363457EDC /* Pods-Zatcher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E3E794F008E3B0ADE17758D82E46F8 /* Pods-Zatcher_Tests-dummy.m */; };
 		DD770A0E3C7C3E35BDC954EFB2217417 /* Pods-Zatcher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2D47B52A78202A94F4EEA0DC260A95 /* Pods-Zatcher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F302AFF6898938E0C30F1ED739BEC4BD /* ZRenderMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08CE4D4B02637C2CB52C70E5FFC7C1 /* ZRenderMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DF85B6379963E09D1AAE20EBD843D72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDAB5DD9B877D424015EAFBF970F1D09;
-			remoteInfo = "Pods-Zatcher_Example";
-		};
-		0E507D35EABC153D762F814AD7D1EF30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
-			remoteInfo = PLCrashReporter;
-		};
-		AB4088C873E40AFAFDA9860E61514D9B /* PBXContainerItemProxy */ = {
+		0201A40556679F0D086BA390F6D08ADE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3417F97920935FF8C3D22C9ADC2F92D6;
 			remoteInfo = Zatcher;
 		};
-		D5EADBA3D5B5B2831427D71E4F17181D /* PBXContainerItemProxy */ = {
+		286D034BDB34B69C70E291233F53BF6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D53C58097CCE41070956936598B94B4;
+			remoteInfo = PLCrashReporter;
+		};
+		EADFF6E59BC348C1EBE0F0838AA6A051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAB5DD9B877D424015EAFBF970F1D09;
+			remoteInfo = "Pods-Zatcher_Example";
+		};
+		F722F906FF60C1F4E4EFEE92F0B8B695 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -67,45 +67,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02CEBDFC2EBC9FE3EE5D66C1F494E629 /* Zatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zatcher.debug.xcconfig; sourceTree = "<group>"; };
-		09B655787ED761541AD7E5C4110469A9 /* ZRenderMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZRenderMonitor.m; path = Zatcher/Classes/ZRenderMonitor.m; sourceTree = "<group>"; };
+		01765587D8EF12111F41BF62FB26A499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0BD21395432451B3EC32A3D92135AFCD /* Zatcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zatcher-Info.plist"; sourceTree = "<group>"; };
 		0DC8ED3DBD71B511D8250DDE1F73E3C6 /* Pods-Zatcher_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zatcher_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		10E5AC5340819ABBA5362A97206A12F0 /* Zatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zatcher.release.xcconfig; sourceTree = "<group>"; };
 		129493E53C5041E70D15E8D225AF4F08 /* Pods-Zatcher_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zatcher_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BA4896D32A7AE98A73382A171AFE958 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3149BBD1781BF9E2AE96A30B5BCC8BF7 /* Zatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zatcher.release.xcconfig; sourceTree = "<group>"; };
 		3186E9EADE28A5FFC425E112F000176B /* Pods-Zatcher_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zatcher_Tests-Info.plist"; sourceTree = "<group>"; };
 		35A4CDE301206AB7299FE33742D06989 /* Pods-Zatcher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zatcher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		381BE1D6562CEE18C4273277D469FE60 /* ZRenderMonitor+FPS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZRenderMonitor+FPS.m"; path = "Zatcher/Classes/ZRenderMonitor+FPS.m"; sourceTree = "<group>"; };
 		3C0355D513206C859DAF37AE1E7924E8 /* Pods-Zatcher_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zatcher_Tests.modulemap"; sourceTree = "<group>"; };
+		3C08CE4D4B02637C2CB52C70E5FFC7C1 /* ZRenderMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZRenderMonitor.m; sourceTree = "<group>"; };
+		409A02C6FF0D5D9A61D92E2BE651B060 /* Zatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zatcher.debug.xcconfig; sourceTree = "<group>"; };
 		41C884B0BB7F00300D6966BB42E2DE48 /* Pods-Zatcher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zatcher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42C01B8258C7494FD8A612E4822BC376 /* Zatcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zatcher-Info.plist"; sourceTree = "<group>"; };
-		458EA67E8DD958F66EDAC6A57709D6D9 /* ZRenderMonitor+FPS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZRenderMonitor+FPS.h"; path = "Zatcher/Classes/ZRenderMonitor+FPS.h"; sourceTree = "<group>"; };
 		519B3BCD9A4B989A1FDFFCEF7DB5872F /* Pods-Zatcher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zatcher_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55014C5B67AE4D43606251DC25D825DE /* Zatcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zatcher.modulemap; sourceTree = "<group>"; };
+		5588F12C9DDC1FAF16986173F3B8ED75 /* ZRenderMonitor+FPS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZRenderMonitor+FPS.m"; sourceTree = "<group>"; };
 		578F78EDAA788DFC3D5245043995A145 /* PLCrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.release.xcconfig; sourceTree = "<group>"; };
 		5DE7E3D4AE604B3A3EB9ACF5DDF320FD /* PLCrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.debug.xcconfig; sourceTree = "<group>"; };
 		63E888431B458AEA898EB669F2475280 /* Pods-Zatcher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zatcher_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6B168519006B00EF762BF364E11794C0 /* Pods-Zatcher_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zatcher_Example.modulemap"; sourceTree = "<group>"; };
+		6B84055FF2181CABD6FEF320363A9F47 /* Zatcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zatcher-prefix.pch"; sourceTree = "<group>"; };
 		6C78A909FD9A1BD2BB976DB0F6280901 /* Pods-Zatcher_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zatcher_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78F4066B787FBD079A8821E0CA655B0E /* Zatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zatcher.h; path = Zatcher/Classes/Zatcher.h; sourceTree = "<group>"; };
+		7F7DA1A48502B5DA2F1A75D7936C6632 /* Zatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zatcher.h; path = Zatcher/Classes/Zatcher.h; sourceTree = "<group>"; };
+		829AC03D40BBE5274AE3323EB3D35D45 /* Zatcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Zatcher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		857F0A4C7C5EAD4FE660C36F69AEBAFB /* ZRenderMonitor+FPS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZRenderMonitor+FPS.h"; sourceTree = "<group>"; };
 		8AE904F3AF732F82BD5C2A052CE10E08 /* Pods-Zatcher_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zatcher_Example-dummy.m"; sourceTree = "<group>"; };
-		92E7A2D13CD71563752549530EE47A3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		965EA3740D26A333BE88F9822FAB2A0E /* ZRenderMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZRenderMonitor.h; path = Zatcher/Classes/ZRenderMonitor.h; sourceTree = "<group>"; };
+		90AA6A5369B2055B9E8A9E6D50E7FCB4 /* Zatcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zatcher-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0CF2AB345D8A673F83EDB3DA6C6A233 /* Pods-Zatcher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zatcher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4E3E794F008E3B0ADE17758D82E46F8 /* Pods-Zatcher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zatcher_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5460BFFB26B3C4C7F14CE8C6B43CC7F /* Zatcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zatcher-dummy.m"; sourceTree = "<group>"; };
 		A844110D8D3FF6414E016BED8200CC2E /* Pods-Zatcher_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zatcher_Example-Info.plist"; sourceTree = "<group>"; };
 		A9660BCB00ADA7D0CD8C2E59F4E7B7E1 /* Pods_Zatcher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zatcher_Example.framework; path = "Pods-Zatcher_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF68AAD6EE32F64DEF7BEC62C11DBCE5 /* Pods-Zatcher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zatcher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B739068D0BCDF2658416FE0C6E62FA3E /* Zatcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Zatcher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB28B8A3C0C498D6AAE6FFC4C03C6BC4 /* Zatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Zatcher.framework; path = Zatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1884B5560C5E0D8B8F915BB3FA26A1 /* Pods_Zatcher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zatcher_Tests.framework; path = "Pods-Zatcher_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C62A2B1FB7BCA9DDA646A188855BFE43 /* Zatcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zatcher-umbrella.h"; sourceTree = "<group>"; };
-		CE0272E98B06E08898B2DB12C35C2254 /* Zatcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zatcher-dummy.m"; sourceTree = "<group>"; };
+		BF6A153D28507D78CA687D897DF230D1 /* ZRenderMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZRenderMonitor.h; sourceTree = "<group>"; };
 		CF2D47B52A78202A94F4EEA0DC260A95 /* Pods-Zatcher_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zatcher_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D8DE79799D33A4E1DBFB5CEA9DAC46EF /* Zatcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zatcher-prefix.pch"; sourceTree = "<group>"; };
 		DA14F40B1AB5FD5ACC6C5B6CE1A0FD87 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = "iOS Framework/CrashReporter.framework"; sourceTree = "<group>"; };
-		EE2B02F79AFDEA2BFD6C51130E1664A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F2DA01000CE763B34942DE00F166F0E8 /* Zatcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zatcher.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,16 +146,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A646B29ED5EEC81DE184A31F39F4677 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				92E7A2D13CD71563752549530EE47A3F /* LICENSE */,
-				EE2B02F79AFDEA2BFD6C51130E1664A2 /* README.md */,
-				B739068D0BCDF2658416FE0C6E62FA3E /* Zatcher.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,19 +154,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		58703ADE358E3DB7859A9855A96EC2E5 /* Support Files */ = {
+		587FF7795BB6703E0CD7065AAF364709 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55014C5B67AE4D43606251DC25D825DE /* Zatcher.modulemap */,
-				CE0272E98B06E08898B2DB12C35C2254 /* Zatcher-dummy.m */,
-				42C01B8258C7494FD8A612E4822BC376 /* Zatcher-Info.plist */,
-				D8DE79799D33A4E1DBFB5CEA9DAC46EF /* Zatcher-prefix.pch */,
-				C62A2B1FB7BCA9DDA646A188855BFE43 /* Zatcher-umbrella.h */,
-				02CEBDFC2EBC9FE3EE5D66C1F494E629 /* Zatcher.debug.xcconfig */,
-				10E5AC5340819ABBA5362A97206A12F0 /* Zatcher.release.xcconfig */,
+				806E89BCDFC7CAE9C2A7DC48BEF9D0FF /* Zatcher */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Zatcher";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5FF8EA27B1A46A3E11DB2E1CB6FCF2AB /* Pods-Zatcher_Example */ = {
@@ -193,6 +176,26 @@
 			);
 			name = "Pods-Zatcher_Example";
 			path = "Target Support Files/Pods-Zatcher_Example";
+			sourceTree = "<group>";
+		};
+		806E89BCDFC7CAE9C2A7DC48BEF9D0FF /* Zatcher */ = {
+			isa = PBXGroup;
+			children = (
+				823FC79AA57B32A1D9ABCD64D6994EE8 /* Core */,
+				C2BFC6ED0F4BA04598C0A2AC74A6BF44 /* Pod */,
+				A3B5B8D8E59DF7A60CFB6E98D067D2F8 /* Support Files */,
+			);
+			name = Zatcher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		823FC79AA57B32A1D9ABCD64D6994EE8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F7DA1A48502B5DA2F1A75D7936C6632 /* Zatcher.h */,
+				E8C2B0D8E2588481E38B4780FEF67719 /* RenderMonitor */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		9A63D1E7768A34C576279ACEC7B1282D /* Targets Support Files */ = {
@@ -212,19 +215,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A43D9C81C0C71B1BBCAE7344C4B719DE /* Zatcher */ = {
+		A3B5B8D8E59DF7A60CFB6E98D067D2F8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78F4066B787FBD079A8821E0CA655B0E /* Zatcher.h */,
-				965EA3740D26A333BE88F9822FAB2A0E /* ZRenderMonitor.h */,
-				09B655787ED761541AD7E5C4110469A9 /* ZRenderMonitor.m */,
-				458EA67E8DD958F66EDAC6A57709D6D9 /* ZRenderMonitor+FPS.h */,
-				381BE1D6562CEE18C4273277D469FE60 /* ZRenderMonitor+FPS.m */,
-				4A646B29ED5EEC81DE184A31F39F4677 /* Pod */,
-				58703ADE358E3DB7859A9855A96EC2E5 /* Support Files */,
+				F2DA01000CE763B34942DE00F166F0E8 /* Zatcher.modulemap */,
+				A5460BFFB26B3C4C7F14CE8C6B43CC7F /* Zatcher-dummy.m */,
+				0BD21395432451B3EC32A3D92135AFCD /* Zatcher-Info.plist */,
+				6B84055FF2181CABD6FEF320363A9F47 /* Zatcher-prefix.pch */,
+				90AA6A5369B2055B9E8A9E6D50E7FCB4 /* Zatcher-umbrella.h */,
+				409A02C6FF0D5D9A61D92E2BE651B060 /* Zatcher.debug.xcconfig */,
+				3149BBD1781BF9E2AE96A30B5BCC8BF7 /* Zatcher.release.xcconfig */,
 			);
-			name = Zatcher;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Zatcher";
 			sourceTree = "<group>";
 		};
 		B6AA816317622B9C2423D292E0CA2758 /* Pods */ = {
@@ -251,6 +254,16 @@
 			path = "Target Support Files/Pods-Zatcher_Tests";
 			sourceTree = "<group>";
 		};
+		C2BFC6ED0F4BA04598C0A2AC74A6BF44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				01765587D8EF12111F41BF62FB26A499 /* LICENSE */,
+				1BA4896D32A7AE98A73382A171AFE958 /* README.md */,
+				829AC03D40BBE5274AE3323EB3D35D45 /* Zatcher.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C37EF6341D79176CEE9891FFDA377F7E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,7 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E20B5CDAA18BDE90E9BDE65D09C002EE /* Development Pods */,
+				587FF7795BB6703E0CD7065AAF364709 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B6AA816317622B9C2423D292E0CA2758 /* Pods */,
 				0E726DB82D816A44DBA8E580219A3D2C /* Products */,
@@ -281,12 +294,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E20B5CDAA18BDE90E9BDE65D09C002EE /* Development Pods */ = {
+		E8C2B0D8E2588481E38B4780FEF67719 /* RenderMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				A43D9C81C0C71B1BBCAE7344C4B719DE /* Zatcher */,
+				BF6A153D28507D78CA687D897DF230D1 /* ZRenderMonitor.h */,
+				3C08CE4D4B02637C2CB52C70E5FFC7C1 /* ZRenderMonitor.m */,
+				857F0A4C7C5EAD4FE660C36F69AEBAFB /* ZRenderMonitor+FPS.h */,
+				5588F12C9DDC1FAF16986173F3B8ED75 /* ZRenderMonitor+FPS.m */,
 			);
-			name = "Development Pods";
+			name = RenderMonitor;
+			path = Zatcher/Classes/RenderMonitor;
 			sourceTree = "<group>";
 		};
 		FADAA578FC5D8DFB56AAC7D0C37DF97C /* PLCrashReporter */ = {
@@ -310,22 +327,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		874351DE00DD844166ADA453DDBF1A96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D575FDAD4CE17D4DDEA052F7CF361A5 /* Zatcher-umbrella.h in Headers */,
+				170687FAD0A477553B4E96CAF35ECD7F /* Zatcher.h in Headers */,
+				44CBB792DD2421B8278FBDE27E37182A /* ZRenderMonitor+FPS.h in Headers */,
+				6CA5D548008CCD83FFDB1149D1B8E7EE /* ZRenderMonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8543B65674921ABD4EEA0DE8D972450 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47AA9BA1746C27F59F08F115ADDBA95B /* Pods-Zatcher_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F00029DFA8EFAD6483A76A4D94BFC822 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6DB3129BA057E5ECDB87B6FFA4A157E /* Zatcher-umbrella.h in Headers */,
-				79F453B87F5A9372A1C5BC8441832DA4 /* Zatcher.h in Headers */,
-				75047EA8CEF72822F0F07A1C3108C0AD /* ZRenderMonitor+FPS.h in Headers */,
-				7744A4619C8AEC5EC54FEE1BB886D4CD /* ZRenderMonitor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,15 +353,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF6DCC14786CE6823E28868C0151328E /* Build configuration list for PBXNativeTarget "Zatcher" */;
 			buildPhases = (
-				F00029DFA8EFAD6483A76A4D94BFC822 /* Headers */,
-				25DAECF81432D1B97E5CAF721F205ECC /* Sources */,
+				874351DE00DD844166ADA453DDBF1A96 /* Headers */,
+				3A4EF8BC3065B4BF686F0FEEDBE0B023 /* Sources */,
 				2DC9B3073B75D06DA14812C1D70D6218 /* Frameworks */,
 				C6023ED182BD05305DF4191B5E1EFE51 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE0D4D9B88DC189A16E248EE628FC333 /* PBXTargetDependency */,
+				6F29018627E36E17E043A77C7B5E89F1 /* PBXTargetDependency */,
 			);
 			name = Zatcher;
 			productName = Zatcher;
@@ -363,8 +380,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				EB72A99A71824968A62D9C3BB5892C1A /* PBXTargetDependency */,
-				11F3D53F0BAA0F117FE926ACEB30C4C5 /* PBXTargetDependency */,
+				6F72D72FC623D68D2A36C890130A6792 /* PBXTargetDependency */,
+				C8821C655F2CFD67173A8D4727385711 /* PBXTargetDependency */,
 			);
 			name = "Pods-Zatcher_Example";
 			productName = "Pods-Zatcher_Example";
@@ -383,7 +400,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A6335B7E42382924B90E3938FB3052C /* PBXTargetDependency */,
+				044FFE56E19C20CB30F308913D2B1757 /* PBXTargetDependency */,
 			);
 			name = "Pods-Zatcher_Tests";
 			productName = "Pods-Zatcher_Tests";
@@ -445,13 +462,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25DAECF81432D1B97E5CAF721F205ECC /* Sources */ = {
+		3A4EF8BC3065B4BF686F0FEEDBE0B023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA088AF80114E382B60200BD9AD4BBE0 /* Zatcher-dummy.m in Sources */,
-				58984849129FF139D2939E565BAFF48F /* ZRenderMonitor+FPS.m in Sources */,
-				7A61B41DA8AE8B571FC5754CA62066D9 /* ZRenderMonitor.m in Sources */,
+				0862027E6782218DDC5C003B5FE4EA21 /* Zatcher-dummy.m in Sources */,
+				611AEC754ABDCA09724545E1C167F50A /* ZRenderMonitor+FPS.m in Sources */,
+				F302AFF6898938E0C30F1ED739BEC4BD /* ZRenderMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,29 +491,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		11F3D53F0BAA0F117FE926ACEB30C4C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Zatcher;
-			target = 3417F97920935FF8C3D22C9ADC2F92D6 /* Zatcher */;
-			targetProxy = AB4088C873E40AFAFDA9860E61514D9B /* PBXContainerItemProxy */;
-		};
-		5A6335B7E42382924B90E3938FB3052C /* PBXTargetDependency */ = {
+		044FFE56E19C20CB30F308913D2B1757 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Zatcher_Example";
 			target = BDAB5DD9B877D424015EAFBF970F1D09 /* Pods-Zatcher_Example */;
-			targetProxy = 0DF85B6379963E09D1AAE20EBD843D72 /* PBXContainerItemProxy */;
+			targetProxy = EADFF6E59BC348C1EBE0F0838AA6A051 /* PBXContainerItemProxy */;
 		};
-		AE0D4D9B88DC189A16E248EE628FC333 /* PBXTargetDependency */ = {
+		6F29018627E36E17E043A77C7B5E89F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PLCrashReporter;
 			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
-			targetProxy = 0E507D35EABC153D762F814AD7D1EF30 /* PBXContainerItemProxy */;
+			targetProxy = 286D034BDB34B69C70E291233F53BF6D /* PBXContainerItemProxy */;
 		};
-		EB72A99A71824968A62D9C3BB5892C1A /* PBXTargetDependency */ = {
+		6F72D72FC623D68D2A36C890130A6792 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PLCrashReporter;
 			target = 8D53C58097CCE41070956936598B94B4 /* PLCrashReporter */;
-			targetProxy = D5EADBA3D5B5B2831427D71E4F17181D /* PBXContainerItemProxy */;
+			targetProxy = F722F906FF60C1F4E4EFEE92F0B8B695 /* PBXContainerItemProxy */;
+		};
+		C8821C655F2CFD67173A8D4727385711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zatcher;
+			target = 3417F97920935FF8C3D22C9ADC2F92D6 /* Zatcher */;
+			targetProxy = 0201A40556679F0D086BA390F6D08ADE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -635,7 +652,7 @@
 		};
 		4FE69FAADC5538B2FD28F4AF63508934 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10E5AC5340819ABBA5362A97206A12F0 /* Zatcher.release.xcconfig */;
+			baseConfigurationReference = 3149BBD1781BF9E2AE96A30B5BCC8BF7 /* Zatcher.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -667,7 +684,7 @@
 		};
 		6B584CAC36E2AC9CFE60A389BD654CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02CEBDFC2EBC9FE3EE5D66C1F494E629 /* Zatcher.debug.xcconfig */;
+			baseConfigurationReference = 409A02C6FF0D5D9A61D92E2BE651B060 /* Zatcher.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

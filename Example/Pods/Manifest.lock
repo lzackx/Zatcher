@@ -1,6 +1,8 @@
 PODS:
   - PLCrashReporter (1.8.1)
-  - Zatcher (0.1.0):
+  - Zatcher (1.0.0):
+    - Zatcher/Core (= 1.0.0)
+  - Zatcher/Core (1.0.0):
     - PLCrashReporter (~> 1.8)
 
 DEPENDENCIES:
@@ -16,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   PLCrashReporter: ea2d252e930f538a9f70f0b81bc9cce656651fbf
-  Zatcher: a22f4987fc53df86c0076968f7c429b60d860a95
+  Zatcher: c61fdd9a078f317d3f4e048a74257d3c5f9b43cf
 
 PODFILE CHECKSUM: 4121b03f8d306d0f81c320d32e7a15f9bc5e5467
 
