@@ -30,6 +30,8 @@ A simple logger
 
   s.ios.deployment_target = '9.0'
 	s.static_framework = true
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 	s.default_subspec		= "Core"
 	
 	s.subspec "Core" do |ss|
